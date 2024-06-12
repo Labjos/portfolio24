@@ -1,0 +1,40 @@
+.line {
+  display: flex;
+}
+.line-time {
+  width: 10px;
+  height: 75vh;
+  border-right: 1px dotted #fff;
+  margin-top: 7vh;
+  margin-left: 7vw;
+}
+
+.years {
+  font-weight: 100;
+  margin-top: 7vh;
+  margin-left: 2vw;
+  padding: 0px;
+}
+.numbers {
+  margin: 0;
+  padding: 0;
+}
+.number-line {
+  margin: 0;
+  width: 5vw;
+}
+.number-line-noventa {
+  margin: 0;
+  width: 7vw;
+  margin-left: -50px;
+}
+.number-line-dosmiluno {
+  margin: 0;
+  width: 9vw;
+  margin-left: -20px;
+}
+.number-line-dosmilveinte {
+  margin: 0;
+  width: 14vw;
+  margin-left: -90px;
+}
