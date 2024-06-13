@@ -23,10 +23,17 @@
   text-align: center;
 }
 .project:hover img {
-  opacity: 0.2;
+  opacity: 0.9;
 }
 .project {
   position: relative;
+}
+.image-project {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
 }
 .project:hover .overlay {
   opacity: 1;

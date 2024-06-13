@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import './Navbar.css'
+
 
 function Navbar() {
   return (
@@ -9,18 +11,18 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbar-toggler">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/home">
           <img src="../../../../isotipo.png"  alt="imagen icono" />
-        </a>
+        </Link>
         <ul className="navbar-nav d-flex justify-content-center align-items-center">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Trajectory</a>
+            <Link className="nav-link active" aria-current="page" to="/trayectory">Trajectory</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Projects</a>
+            <Link className="nav-link" to="/projects">Projects</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact</a>
+            <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
       </div>

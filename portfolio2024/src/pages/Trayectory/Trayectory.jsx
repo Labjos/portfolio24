@@ -7,6 +7,7 @@ import Studies from './Studies/Studies';
 import Supervise from './Supervise/Supervise';
 import University from './University/University';
 import It from './It/It';
+import Footer from '../../components/ui/footer/Footer';
 
 
 function Trayectory() {
@@ -19,6 +20,7 @@ function Trayectory() {
       <University />
       <Marketing />
       <It />
+      <Footer />
     </div>
   )
 }

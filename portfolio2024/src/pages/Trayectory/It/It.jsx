@@ -1,11 +1,12 @@
 import './It.css';
+import { Link } from 'react-router-dom';
 
 function It() {
   return (
     <div>
      <>
-      <div className='color-it'>
-        <p className='titulo'>IT</p>
+     <div className='color-it'>< Link className='link'  to="/register">
+        <p className='titulo'>IT</p></Link>
       </div>
       <div className='studys'>
         <div className='text-studys'>
@@ -21,8 +22,6 @@ function It() {
             <img className='pictures' src='../../../../jos.JPG' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../jos y facu.png' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../jos-glauka.jpg' style={{ height: '100px'}} alt='imagen de joven' />
-            
-
           </div>
         </div>
     </div>
