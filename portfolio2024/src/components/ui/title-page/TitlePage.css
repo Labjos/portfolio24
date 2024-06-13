@@ -1,7 +1,23 @@
+.title-page {
+  display: flex;
+}
+
+.title-text {
+  width: 50vw;
+  height: 20vh;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 24px;
+}
+
 .color-it {
   width: 25vw;
   height: 8vh;
-  background-color: #028ef2;
   margin-top: 15vh;
-  margin-left: 7vw;
+  margin-right: 30vh;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding: 15px;
 }

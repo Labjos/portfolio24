@@ -1,8 +1,11 @@
 import './TitlePage.css';
 
-function TitlePage() {
+function TitlePage({ title, color, text }) {
   return (
-    <div className='color-it'>TitlePage</div>
+    <div className='title-page'>
+      <p className='title-text'>{text}</p>
+      <div className='color-it' style={{ backgroundColor: color}}><p>{ title }</p></div>
+    </div>
   )
 }
 
