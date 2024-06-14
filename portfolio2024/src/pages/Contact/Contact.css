@@ -1,0 +1,16 @@
+.cafe-box {
+  display: flex;
+}
+
+
+.cafe {
+  margin-top: 70px;
+  margin-left: 230px;
+}
+
+.cafe-talk {
+  font-size: 40px;
+  margin-top: 70px;
+  margin-left: 100px;
+
+}

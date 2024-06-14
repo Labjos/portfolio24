@@ -16,10 +16,10 @@ module.exports.checkAuth = (req, res, next) => {
 
     // 4 - load user from databse
     User.findById(sub)
-      .then((visitor) => {
-        if (visitor) {
+      .then((user) => {
+        if (user) {
           // 5 - save user on request (req.user)
-          req.visitor = visitor;
+          req.user = user;
           // 6 - next
           next();
         } else {

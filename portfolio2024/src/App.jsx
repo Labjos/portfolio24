@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/Home/Home';
 import Trayectory from './pages/Trayectory/Trayectory';
 import Projects from './pages/Projects/Projects';
-import Register from './pages/Register/register';
+import Register from './pages/Register/Register';
 import Contact from './pages/Contact/Contact';
 import { Routes, Route, Navigate } from "react-router-dom";
 

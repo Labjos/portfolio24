@@ -1,11 +1,12 @@
 .footer {
   display: flex;
   width: 100vw;
-  height: 40vh;
+  height: 50vh;
   background-color: #fff;
   color: #028ef2;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .logo-footer {
@@ -14,9 +15,9 @@
 
 .talk {
   width: 30%;
-  height: 40vh;
+  height: 30vh;
   font-size: 12px;
-  margin-top: 20vh;
+  margin-top: 10vh;
   
 
 }
@@ -29,15 +30,15 @@
 
 .link {
   width: 30%;
-  height: 40vh;
+  height: 30vh;
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .data {
   width: 30%;
-  height: 40vh;
-  margin-top: 20vh;
+  height: 30vh;
+  margin-top: 10vh;
 }
 
 .data-link {

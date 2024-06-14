@@ -8,7 +8,7 @@ function projects() {
   return (
     <>
     <Navbar />
-    <TitlePage title='Projects' color='turquoise' text='"Samples of my published works, the models, the bootcamp projects... a little bit of everything, always trying to improve and continue learning."' />
+    <TitlePage title='Projects' color='turquoise' text='"Samples of my published works, the models, the bootcamp projects, projects in progress and revisions... a little bit of everything, always trying to improve and continue learning."' />
     <div className='projects'><ProjectsList /></div>
     <Footer />
     </>

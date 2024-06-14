@@ -9,7 +9,9 @@ function Contact() {
     <>
       <Navbar />
       <TitlePage title='Contact' color='orange' text='This is a space created to publicize my work in programming. What am I looking for?. I am looking to be part of a work team where I can contribute to the development of challenging and innovative projects. Learn, grow and contribute.' />
-      <div>Contact</div>
+      <div className='cafe-box'>
+      <img  className='cafe' src='../../../cafe.jpeg' style={{ height: '200px'}} alt='taza de café' /> <p className='cafe-talk'>"Let's talk"</p>
+      </div>
       <div>Form</div>
       <Footer />
     </>
