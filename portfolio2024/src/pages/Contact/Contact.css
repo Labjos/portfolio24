@@ -1,7 +1,8 @@
 .cafe-box {
   display: flex;
+  width: 50vw;
+  margin-top: 20vh;
 }
-
 
 .cafe {
   margin-top: 70px;
@@ -12,5 +13,8 @@
   font-size: 40px;
   margin-top: 70px;
   margin-left: 100px;
+}
 
+.contact-box {
+  display: flex;
 }

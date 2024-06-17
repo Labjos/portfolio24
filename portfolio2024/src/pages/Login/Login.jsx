@@ -5,9 +5,8 @@ import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import axios from 'axios';
 
-import './Register.css';
+import './Login.css';
 import { useNavigate } from 'react-router-dom';
-import Technologies from '../../components/ui/Technologies/Technologies';
 
 
 function Register() {
@@ -23,10 +22,10 @@ function Register() {
   async function onSubmit(dataUser) {
     try {
       setError(false);
-      const response = await axios.post('http://localhost:3000/api/v1/users', dataUser);
+      const response = await axios.post('http://localhost:3000/api/v1/login', dataUser);
       console.log(response)
 
-      navigate('/projects')
+      navigate('/login')
     } catch(err) {
       setError(true)
     }
@@ -36,18 +35,11 @@ function Register() {
   <> 
     <Navbar /> 
     <TitlePage title='Welcome' color='magenta' text='"If you register, I will know that you have been here. if not, you can continue as a guest. Thank you for taking a few minutes to review this summary of my life..."' />
-    <div className='tec-form'>
-      <Technologies />
     
-      <form className='form-register' onSubmit={handleSubmit(onSubmit)}>
-        <p className='title-register'>Register o continue like a Guest!</p>
+    <div>Technologies</div>
+    
+      <form onSubmit={handleSubmit(onSubmit)}>
         {error && <div className="alert alert-danger">error. review form data</div>}
-        <div className="mb-3">
-          <label htmlFor="username" className="form-label">User Name</label>
-          <input required id='username' type="text" className={ `form-control ${errors.username ? "is-invalid" : ""}`}
-          {...register("username")}
-          />
-        </div>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">Email address</label>
           <input required id='email' type="email" className={ `form-control ${errors.email ? "is-invalid" : ""}`}
@@ -60,9 +52,8 @@ function Register() {
           {...register("password")}
           />
         </div>
-        <button type='submit' className='btn btn-success'>Register</button>
+        <button type='submit' className='btn btn-success'>Login</button>
     </form>
-  </div>
   <Footer />
   </>
   )

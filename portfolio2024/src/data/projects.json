@@ -4,97 +4,147 @@
     "title": "MundoSur Ambiental",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
     "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704560/portfolio/project-Mundosur_nzbuyh.png",
-    "type": "Publish"
+    "type": "Publish",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "2",
     "title": "Serpy SRL",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
     "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704561/portfolio/project-serpy_uab3fu.png",
-    "type": "Publish"
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "3",
     "title": "Viajes Glauka",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
     "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704560/portfolio/project-glauka_wmnjhq.png",
-    "type": "Publish"
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "4",
-    "title": "Mundo Sur Natural",
-    "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704560/portfolio/project-vino_qztg9p.png",
-    "type": "Publish"
+    "title": "portfolio 2024",
+    "description": "Resume Works & projetcs.",
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718621227/portfolio_c8dtgd.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "5",
-    "title": "Vino en Persona",
+    "title": "Mundo Sur Natural",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704559/portfolio/project-coder_ga5muz.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704560/portfolio/project-vino_qztg9p.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "6",
-    "title": "Wasqa Digital",
+    "title": "Vino en Persona",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200125/portfolio/wasqa_rhzweg.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704559/portfolio/project-coder_ga5muz.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "7",
-    "title": "Estima't Cuina't",
+    "title": "Wasqa Digital",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718199608/portfolio/estimat_bns4wm.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200125/portfolio/wasqa_rhzweg.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "8",
-    "title": "20 años - viajes Carrefour Huesca",
+    "title": "Estima't Cuina't",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718199472/portfolio/20ani-glauka_wy8kn4.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718199608/portfolio/estimat_bns4wm.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "9",
-    "title": "Natalia Coaching",
+    "title": "20 años - viajes Carrefour Huesca",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704559/portfolio/project-integral-coaching_zyxeea.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718199472/portfolio/20ani-glauka_wy8kn4.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "10",
-    "title": "Speakeasy",
+    "title": "Natalia Coaching",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200772/portfolio/speakeasy_jx8vrf.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704559/portfolio/project-integral-coaching_zyxeea.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "11",
-    "title": "Url-Shortener",
+    "title": "Speakeasy",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200701/portfolio/url-shotener_nic5sn.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200772/portfolio/speakeasy_jx8vrf.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "12",
-    "title": "Fly-Swatter - Game",
+    "title": "Url-Shortener",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200682/portfolio/fly-swatter_omymj3.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200701/portfolio/url-shotener_nic5sn.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "13",
-    "title": "Need Social 1",
+    "title": "Fly-Swatter - Game",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
-    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718201677/portfolio/ns1_z1ir2y.png",
-    "type": "Publish"
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718200682/portfolio/fly-swatter_omymj3.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   },
   {
     "id": "14",
+    "title": "Need Social 1",
+    "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
+    "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1718201677/portfolio/ns1_z1ir2y.png",
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
+  },
+  {
+    "id": "15",
     "title": "My Grain",
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
     "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704560/portfolio/project-myGrain_t2hxqw.png",
-    "type": "Publish"
+    "type": "Publish",
+    "linkWeb": "https://serpy.com.ar/",
+    "linkGit": "https://github.com/Labjos/serpy",
+    "tags":["html", "css", "JS"]
   }
 ]

@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
+
+const renderNavLinkActive = ({ isActive }) => isActive ? 'nav-link active' : 'nav-link';
 
 
 function Navbar() {
+  
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-ligth">
@@ -16,13 +19,13 @@ function Navbar() {
         </Link>
         <ul className="navbar-nav d-flex justify-content-center align-items-center">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/trayectory">Trajectory</Link>
+            <NavLink className={renderNavLinkActive} to="/trayectory">Trajectory</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/projects">Projects</Link>
+            <NavLink className={renderNavLinkActive} to="/projects">Projects</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link>
+            <NavLink className={renderNavLinkActive} to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>

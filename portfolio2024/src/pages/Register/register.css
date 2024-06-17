@@ -1,0 +1,17 @@
+.tec-form {
+  display: flex;
+}
+
+.form-register {
+  width: 30vw;
+  height: 50vh;
+  margin-left: 10vw;
+  margin-top: 16vh;
+  padding: 40px;
+  background-color: rgba(128, 128, 128, 0.200);
+}
+
+.title-register {
+  font-size: 25px;
+  font-weight: 400;
+}
