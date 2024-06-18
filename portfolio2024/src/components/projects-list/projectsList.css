@@ -34,8 +34,7 @@
 }
 .overlay .icons-container {
   display: flex;
+  color: #fff;
+  z-index: 1;
 }
-.overlay i{
-  color: #000;
 
-}

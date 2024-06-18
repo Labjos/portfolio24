@@ -1,48 +1,69 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.projetc {
+  position: relative;
+  padding: 40px;
 }
 
-.experience .row div {
-  height: 250px;
-  background-color: aqua;
-  border: 2px solid orange;
+.description {
+  font-size: 15px;
+  color: #fff;
+}
+
+.image-project {
+  width: 100%;
+  height: 100%;
+  
+  display: block;
+  transition: all 0.2s ease;
 }
 
 .overlay {
-  transition: all 0.2 ease-in;
-  opacity: 0;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+  margin-top: 40%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.project:hover img {
-  opacity: 0.9;
-}
-.project {
-  position: relative;
-}
-.image-project {
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  transition: all 0.2s ease-in;
-}
-.project:hover .overlay {
-  opacity: 1;
 
+.text-overlay {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
-.overlay .icons-container {
-  display: flex;
+
+.image-project:hover{
+  opacity: 0.1;
 }
+
+.overlay:hover{
+  opacity: 1;
+}
+
+.picture{
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.icons-container {
+  z-index: 1;
+  padding: 5px;
+}
+
+
 .overlay i{
-  color: #000;
+  color: #fff;
+  z-index: 1;
+  gap: 10px;
+}
+
+.marc{
+  display: flex;
+  justify-content: center;
 
 }
