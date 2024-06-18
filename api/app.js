@@ -3,7 +3,7 @@ const express = require("express");
 const logger = require("morgan");
 
 require("./configs/db.confing");
-const router = require ("./configs//routes.config");
+const router = require("./configs//routes.config");
 const cors = require("./middlewares/cors.middlewares");
 
 const app = express();
