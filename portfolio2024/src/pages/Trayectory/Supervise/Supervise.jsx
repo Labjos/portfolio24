@@ -1,9 +1,20 @@
 import './Supervise.css';
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 function Supervise() {
+
+  useEffect(() => {
+    Aos.init({duration: 2_000});
+  }, [])
+
+
+
   return (
     <>
-      <div className='color-supervise'>
+      <div className='color-supervise' data-aos = "fade-down">
         <p className='title'>PROFESIONAL - GRANDES CAMBIOS</p>
       </div>
       <div className='studys'>
@@ -13,7 +24,7 @@ function Supervise() {
         </div>
       
         <div className='supervise'>
-          <div className='text-hobbies'>
+          <div className='text-hobbies' data-aos = "fade-down">
             <p>Drawing and design of pipe layout and construction supervision.  me llevó a conocer muchos lugares:</p>
             <ul><p>PAISES DONDE HE TRABAJADO</p>
               <li>Argentina</li>

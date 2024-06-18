@@ -1,9 +1,21 @@
 import './Marketing.css';
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 function Marketing() {
+
+  useEffect(() => {
+    Aos.init({duration: 2_000});
+  }, [])
+
+
+
+
   return (
     <>
-      <div className='color-marketing'>
+      <div className='color-marketing' data-aos = "zoom-in">
         <p className='titulo-marketing'>MARKETING & ENTREPRENEURSHIPS</p>
       </div>
       <div className='studys'>
@@ -19,17 +31,16 @@ function Marketing() {
 
         </div>
       
-        <div className='draw'>
+        <div className='draw' data-aos = "zoom-in">
           <div className='text-hobbies'>
             <p>Turismo y alimentación y bebidas</p>
           </div>
-          <div>
+          <div data-aos = "zoom-in-rigth">
             <img className='pictures' src='../../../../alasombra.png' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../jos y nacho.png' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../jos-agencia.png' style={{ height: '100px'}} alt='imagen de joven' />
             
-
-          </div>
+         </div>
         </div>
     </div>
   </>

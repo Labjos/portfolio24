@@ -11,17 +11,25 @@ import Footer from '../../components/ui/footer/Footer';
 import TitlePage from '../../components/ui/title-page/TitlePage';
 
 
+
+
 function Trayectory() {
+
+
+
+
+
+
   return (
     <div>
       <Navbar />
       <TitlePage title='Trajectory' color='grey' text='"It is a true privilege to be able to do everything I am passionate about while I am working. I never knew how to sit still, once again I have decided to try"' />
       <Studies />
-      <Drawing />
-      <Supervise />
-      <University />
-      <Marketing />
-      <It />
+      <Drawing data-aos = "fade-left" />
+      <Supervise data-aos = "fade-up"/>
+      <University data-aos = "fade-down"/>
+      <Marketing data-aos = "fade-up"/>
+      <It data-aos = "fade-up" />
       <Footer />
     </div>
   )
