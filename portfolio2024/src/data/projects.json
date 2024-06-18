@@ -5,6 +5,8 @@
     "description": "Ingenieria Medioambiental con base en Argentina que opera en LatinoAmérica.",
     "image": "https://res.cloudinary.com/dmzanxy93/image/upload/v1717704560/portfolio/project-Mundosur_nzbuyh.png",
     "type": "Publish",
+    "linkWeb":"https://mdsambiental.com/",
+    "linkGit": "https://github.com/Labjos/Mundo-Sur-Ambiental-",
     "tags":["html", "css", "JS"]
   },
   {

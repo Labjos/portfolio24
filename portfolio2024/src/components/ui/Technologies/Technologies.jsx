@@ -3,7 +3,6 @@ import './Technologies.css';
 function Technologies() {
   return (
     <div className='tecno'>
-
       <div className='main-tec'>
         <p className='text-tec'>MAIN TECHNOLOGIES</p>
         <img src='../../../../logo-js.png' alt='logo javascript' style={{ height: '80px', margin: '5px'}} />
@@ -23,9 +22,6 @@ function Technologies() {
         <img src='../../../../logo-docker.svg' alt='logo docker' style={{ height: '80px', margin: '10px'}} />
         <img src='../../../../python_18894.png' alt='logo python' style={{ height: '80px', margin: '10px'}} />
       </div>
-
-
-
     </div>
   )
 }

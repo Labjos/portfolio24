@@ -20,12 +20,12 @@ function Footer() {
       <div className='data'>
       <p><strong>Contact</strong></p>
         <div className='data-link'>
-          <Link to="https://github.com/Labjos" rel="noopener noreferrer"><i className="bi bi-github"></i></Link>
-          <Link to="https://github.com/Labjos" rel="noopener noreferrer"><i className="bi bi-whatsapp"></i></Link>
-          <Link to="https://github.com/Labjos" rel="noopener noreferrer"><i className="bi bi-envelope-check"></i></Link>
-          <Link to="https://github.com/Labjos" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
-          <Link to="https://github.com/Labjos" rel="noopener noreferrer"><i className="bi bi-instagram"></i></Link>
-          <Link to="" target="" rel="noopener noreferrer"><i className="bi bi-laptop"></i></Link>
+          <Link to="https://github.com/Labjos" target="blank" rel="noopener noreferrer"><i className="bi bi-github"></i></Link>
+          <Link to="https://api.whatsapp.com/send?phone=34640677464&amp;text=Consulta %20desde %20la %20web:" target="blank"  rel="noopener noreferrer"><i className="bi bi-whatsapp"></i></Link>
+          <Link to="mailto:joseplorentemkt@gmail.com" rel="noopener noreferrer"><i className="bi bi-envelope-check"></i></Link>
+          <Link to="https://www.linkedin.com/in/joselorente-webdeveloper/" target='blank' rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
+          <Link to="https://www.instagram.com/joseplorentemkt/" target='blank' rel="noopener noreferrer"><i className="bi bi-instagram"></i></Link>
+          <Link to="" target="blank" rel="noopener noreferrer"><i className="bi bi-laptop"></i></Link>
         </div>
         <p className='web'><strong>www.labjos.com</strong></p>
       </div>

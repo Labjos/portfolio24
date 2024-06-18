@@ -15,11 +15,11 @@ function Home() {
       <Line />
     </div>
     <div className='boxes'>
-      <Box className='box-one' text="STUDIES" />
-      <Box className='box-two' text="DRAWING AND DESIGN" />
-      <Box className='box-three' text="PROJECT AND SUPERVISE" />
-      <Box className='box-four' text="PROJECT, SUPERVISE AND RETURN TO UNIVERSITY" />
-      <Box className='box-five' text="MARKETING AND TOURISM ENTREPRENEURSHIPS" />
+      <Link to='/trayectory' style={{ textDecoration: 'none' }}><Box className='box-one' text="STUDIES" /></Link>
+      <Link to='/trayectory' style={{ textDecoration: 'none' }}><Box className='box-two' text="DRAWING AND DESIGN" /></Link>
+      <Link to='/trayectory' style={{ textDecoration: 'none' }}><Box className='box-three' text="PROJECT AND SUPERVISE" /></Link>
+      <Link to='/trayectory' style={{ textDecoration: 'none' }}><Box className='box-four' text="PROJECT, SUPERVISE AND RETURN TO UNIVERSITY" /></Link>
+      <Link to='/trayectory' style={{ textDecoration: 'none' }}><Box className='box-five' text="MARKETING AND TOURISM ENTREPRENEURSHIPS" /></Link>
       <Link to='/register'><Box className='box-six' text=" IT " /></Link>
     </div>
     <div>

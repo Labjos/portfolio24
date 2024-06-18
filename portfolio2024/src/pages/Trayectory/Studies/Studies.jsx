@@ -26,7 +26,7 @@ function Studies() {
           <div className='text-hobbies'>
             <p>HOBBIES</p>
             <hr/>
-            <p>BASKET</p>
+            <p>BASKET, SPORTS</p>
             <p>DIBUJO Y COMICS</p>
           </div>
           <div data-aos = "fade-left">

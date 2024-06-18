@@ -13,6 +13,8 @@
   padding: 35px 0px 0px 0px;
   margin-top: 40px;
   margin-left: 10vw;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .studys {
@@ -31,4 +33,9 @@
 
 .pictures {
   margin-top: 10px;
+}
+
+.link{
+  list-style-type: none;
+  text-decoration: none;
 }

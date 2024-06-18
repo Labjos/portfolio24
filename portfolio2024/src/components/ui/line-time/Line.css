@@ -5,13 +5,13 @@
   width: 10px;
   height: 75vh;
   border-right: 1px dotted #fff;
-  margin-top: 7vh;
+  margin-top: 10vh;
   margin-left: 7vw;
 }
 
 .years {
   font-weight: 100;
-  margin-top: 7vh;
+  margin-top: 10vh;
   margin-left: 2vw;
   padding: 0px;
 }
