@@ -21,13 +21,16 @@ function It() {
       </div>
       <div className='studys'>
         <div className='text-studys'>
+        <p>Curso Marketing Digital</p>
+          <p>Certificado Digitaliza y Seguridad GOOGLE</p>
+          <p>Marketing Digital Certificado GOOGLE</p>
           <p>UNIVERSIDAD TECNOLOGICA NACIONAL </p>
           <p>CODERHOUSE</p>
           <p><strong>IRONHACK</strong></p>
         </div>
         <div className='draw' data-aos = "flip-down">
           <div className='text-hobbies'>
-            <p>Estudiar desarrollo web y regresar a España</p>
+            <p>Study Web Development and return to Spain.<br></br> Two important decisions that made us start again</p>
           </div>
           <div data-aos = "flip-up">
             <img className='pictures' src='../../../../jos.JPG' style={{ height: '100px'}} alt='imagen de joven' />

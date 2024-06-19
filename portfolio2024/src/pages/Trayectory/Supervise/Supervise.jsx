@@ -15,7 +15,7 @@ function Supervise() {
   return (
     <>
       <div className='color-supervise' data-aos = "fade-down">
-        <p className='title'>PROFESIONAL - GRANDES CAMBIOS</p>
+        <p className='title'>Professional - Big Changes</p>
       </div>
       <div className='studys'>
         <div className='text-studys'>
@@ -25,8 +25,8 @@ function Supervise() {
       
         <div className='supervise'>
           <div className='text-hobbies' data-aos = "fade-down">
-            <p>Drawing and design of pipe layout and construction supervision.  me llevó a conocer muchos lugares:</p>
-            <ul><p>PAISES DONDE HE TRABAJADO</p>
+            <p>Drawing and design of pipe layout and construction supervision. My work took me to many very interesting places.</p>
+            <ul><p>COUNTRIES WHERE I HAVE WORKED:</p>
               <li>Argentina</li>
               <li>Brasil</li>
               <li>México</li>

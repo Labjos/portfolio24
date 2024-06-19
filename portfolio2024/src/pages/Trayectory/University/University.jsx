@@ -14,7 +14,7 @@ function University() {
   return (
     <>
     <div className='color-university' data-aos = "zoom-out">
-        <p className='title'>BACK TO THE UNIVERSITY</p>
+        <p className='title'>Back to the University</p>
       </div>
       <div className='studys'>
         <div className='text-studys'>
@@ -24,9 +24,8 @@ function University() {
       
         <div className='supervise' data-aos = "zoom-out">
           <div className='text-hobbies' data-aos = "zoom-out">
-            <p>Realicé la Lic. de Marketing mientras continuaba trabajando</p>
-            <p>bicicleta y Triatlon, siguen siendo mi pasión</p>
-            <p>Realicé la Lic. de Marketing mientras continuaba trabajando</p>
+            <p>I completed my Marketing degree while continuing to work.<br></br>
+            bicycle and Triathlon, continue to be my passion</p>
             
             <img className='pictures' src='../../../../jos-chat.png' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../Josep.jpg' style={{ height: '100px'}} alt='imagen de joven' />

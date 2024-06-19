@@ -1,4 +1,5 @@
 import ProjectsList from '../../components/projects-list/ProjectsList';
+import DownLoad from '../../components/ui/download/DownLoad';
 import Footer from '../../components/ui/footer/Footer';
 import Navbar from '../../components/ui/Navbar/Navbar';
 import TitlePage from '../../components/ui/title-page/TitlePage';
@@ -8,7 +9,8 @@ function projects() {
   return (
     <>
     <Navbar />
-    <TitlePage title='Projects' color='turquoise' text='"Samples of my published works, the models, the bootcamp projects, projects in progress and revisions... a little bit of everything, always trying to improve and continue learning."' />
+    <TitlePage title='Projects' color='turquoise' text='Samples of my published works, the models, the bootcamp projects, projects in progress and revisions... a little bit of everything, always trying to improve and continue learning.' />
+    <DownLoad />
     <div className='projects'><ProjectsList /></div>
     <Footer />
     </>

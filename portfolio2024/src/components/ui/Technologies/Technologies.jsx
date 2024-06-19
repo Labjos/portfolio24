@@ -22,6 +22,13 @@ function Technologies() {
         <img src='../../../../logo-docker.svg' alt='logo docker' style={{ height: '80px', margin: '10px'}} />
         <img src='../../../../python_18894.png' alt='logo python' style={{ height: '80px', margin: '10px'}} />
       </div>
+      <div className='others-tec'>
+        <p className='text-tec' >LANGUAGES</p>
+        <img src='../../../../spain_flags_flag_17068.png' alt='logo php' style={{ height: '80px', margin: '10px'}} />Native
+        <img src='../../../../united_kingdom_flags_flag_17079.png' alt='logo msql' style={{ height: '80px', margin: '10px'}} />B2
+        <img src='../../../../portugal_flags_flag_17054.png' alt='logo docker' style={{ height: '80px', margin: '10px'}} />A2
+        <img src='../../../../3253480-catalonia-icon-flag_106770.png' alt='logo python' style={{ height: '80px', margin: '10px'}} />Native
+      </div>
     </div>
   )
 }

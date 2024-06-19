@@ -13,7 +13,7 @@ function Drawing() {
   return (
     <>
       <div className='color-drawing' data-aos = "flip-down">
-        <p className='title'>ACTIVIDAD PROFESIONAL</p>
+        <p className='title'>Professional Activity</p>
       </div>
       <div className='studys'>
         <div className='text-studys'>
@@ -23,10 +23,10 @@ function Drawing() {
       
         <div className='draw'>
           <div className='text-hobbies'>
-            <p>Años donde pude aprender y crecer como profesional, viviendo y entendiendo como se trabaja en equipo, tuve la suerte de contar con excelentes mentores... Siempre agradecido!</p>
+            <p></p>Years where I was able to learn and grow as a professional, living and understanding how to work as a team, I was lucky to have excellent mentors... Always grateful!
           </div>
           <div data-aos = "flip-up">
-            <img className='pictures' src='../../../../foto-draw.png' style={{ height: '100px'}} alt='imagen de joven' />
+            <img src='../../../../foto-draw.png' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../jos-sport.png' style={{ height: '100px'}} alt='imagen de joven' />
             <img className='pictures' src='../../../../jos-bici.jpg' style={{ height: '100px'}} alt='imagen de joven' />
           </div>

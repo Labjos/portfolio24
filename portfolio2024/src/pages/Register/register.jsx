@@ -35,7 +35,7 @@ function Register() {
   return (
   <> 
     <Navbar /> 
-    <TitlePage title='Welcome' color='magenta' text='"If you register, I will know that you have been here. if not, you can continue as a guest. Thank you for taking a few minutes to review this summary of my life..."' />
+    <TitlePage title='Welcome' color='magenta' text='If you register, I will know that you have been here. if not, you can continue as a guest. Thank you for taking a few minutes to review this summary of my life...' />
     <div className='tec-form'>
       <Technologies />
     

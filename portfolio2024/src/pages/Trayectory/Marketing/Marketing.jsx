@@ -16,7 +16,7 @@ function Marketing() {
   return (
     <>
       <div className='color-marketing' data-aos = "zoom-in">
-        <p className='titulo-marketing'>MARKETING & ENTREPRENEURSHIPS</p>
+        <p className='titulo-marketing'>Marketing & Entrepreneurships</p>
       </div>
       <div className='studys'>
         <div className='text-studys'>
@@ -24,16 +24,10 @@ function Marketing() {
           <p>RESTAURANTE A LA SOMBRA</p>
           <p>TELTECA TOURS</p>
           <p>COMERCIALIZADORA DE BEBIDAS - MUNDO SUR</p>
-          
-          <p>Curso Marketing Digital</p>
-          <p>Certificado Digitaliza y Seguridad GOOGLE</p>
-          <p>Marketing Digital Certificado GOOGLE</p>
-
         </div>
-      
         <div className='draw' data-aos = "zoom-in">
           <div className='text-hobbies'>
-            <p>Turismo y alimentación y bebidas</p>
+            <p>Tourism and Food and Beverages</p>
           </div>
           <div data-aos = "zoom-in-rigth">
             <img className='pictures' src='../../../../alasombra.png' style={{ height: '100px'}} alt='imagen de joven' />

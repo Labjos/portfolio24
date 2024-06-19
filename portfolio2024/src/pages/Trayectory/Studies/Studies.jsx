@@ -13,7 +13,7 @@ function Studies() {
   return (
     <>
       <div className='color-studies' data-aos = "fade-right">
-        <p className='title'>ESTUDIOS REALIZADOS</p>
+        <p className='title'>Applied Studies</p>
       </div>
       <div className='studys'>
         <div className='text-studys'>
@@ -27,7 +27,7 @@ function Studies() {
             <p>HOBBIES</p>
             <hr/>
             <p>BASKET, SPORTS</p>
-            <p>DIBUJO Y COMICS</p>
+            <p>Drawing and Comics</p>
           </div>
           <div data-aos = "fade-left">
             <img src='../../../../foto-fp.png' style={{ height: '100px'}} alt='imagen de joven' />

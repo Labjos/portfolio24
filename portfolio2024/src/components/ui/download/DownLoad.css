@@ -1,0 +1,32 @@
+
+.download {
+  width: 20vw;
+  height: 30vh;
+  margin-top: 15vh;
+  margin-left: 7vw;
+}
+
+.down li a i{
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  font-size: 70px;
+  color: darkorange;
+}
+.down li a {
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  margin-left: -1px;
+}
+.down li{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.text-down{
+  width: 40vw;
+  height: 10vh;
+  padding: 20px;
+}
