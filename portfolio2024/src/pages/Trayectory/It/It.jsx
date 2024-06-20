@@ -14,13 +14,14 @@ function It() {
 
 
   return (
-    <div>
+    
      <>
-     <div className='color-it' data-aos = "flip-up">< Link className='link'  to="/register">
-        <p className='titulo'>IT</p></Link>
+     <div className='container-tec'>
+     <div className='color-tec' data-aos = "flip-up">< Link className='link'  to="/register">
+        <p className='title-tec'>IT</p></Link>
       </div>
-      <div className='studys'>
-        <div className='text-studys'>
+      <div className='box-tec'>
+        <div className='text-tecnolo'>
         <p>Curso Marketing Digital</p>
           <p>Certificado Digitaliza y Seguridad GOOGLE</p>
           <p>Marketing Digital Certificado GOOGLE</p>
@@ -28,20 +29,20 @@ function It() {
           <p>CODERHOUSE</p>
           <p><strong>IRONHACK</strong></p>
         </div>
-        <div className='draw' data-aos = "flip-down">
+        <div className='hobbies-tec' data-aos = "flip-down">
           <div className='text-hobbies'>
             <p>Study Web Development and return to Spain.<br></br> Two important decisions that made us start again</p>
           </div>
           <div data-aos = "flip-up">
-            <img className='pictures' src='../../../../jos.JPG' style={{ height: '100px'}} alt='imagen de joven' />
-            <img className='pictures' src='../../../../jos y facu.png' style={{ height: '100px'}} alt='imagen de joven' />
-            <img className='pictures' src='../../../../jos-glauka.jpg' style={{ height: '100px'}} alt='imagen de joven' />
+            <img className='pictures' src='../../../../jos.JPG' style={{ height: '90px'}} alt='imagen de joven' />
+            <img className='pictures' src='../../../../jos y facu.png' style={{ height: '90px'}} alt='imagen de joven' />
+            <img className='pictures' src='../../../../jos-glauka.jpg' style={{ height: '90px'}} alt='imagen de joven' />
           </div>
         </div>
     </div>
-  </>
-    
     </div>
+  </>
+
   )
 }
 

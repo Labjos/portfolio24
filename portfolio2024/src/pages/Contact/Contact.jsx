@@ -14,9 +14,8 @@ function Contact() {
       <div className='contact-box'>
       <Thanks />
         <div className='cafe-box'>
-          <img  className='cafe' src='../../../cafe.jpeg' style={{ height: '200px'}} alt='taza de café' /> <p className='cafe-talk'>Let's talk</p>
+          <img  className='cafe' src='../../../cafe.jpeg' style={{ height: '200px'}} alt='taza de café' /><p className='cafe-talk'>Let's talk</p>
         </div>
-       
       </div>
       <Footer />
     </>

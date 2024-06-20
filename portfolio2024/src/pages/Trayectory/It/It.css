@@ -1,41 +1,198 @@
-.color-it {
+.container-tec{
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+.color-tec {
   width: 25vw;
   height: 8vh;
-  background-color: #028ef2;
-  margin-top: 15vh;
-  margin-left: 7vw;
+  background-color: #0387fc;
+  margin-left: 5vw;
 }
-
-.titulo {
+.title-tec {
   color: #000;
+  width: 20vw;
   font-size: 22px;
   font-weight: 500;
-  padding: 25px 0px 0px 0px;
-  margin-left: 20vw;
-  list-style-type: none;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.link{
+  margin-top: 4vh;
+  margin-left: 10vw;
   list-style-type: none;
   text-decoration: none;
 }
-
-.studys {
+.box-tec{
   display: flex;
+  width: 70vw;
+  height: auto;
   margin-top: 10vh;
-  margin-left: 30vw;
 }
-
-.supervise {
-  margin-left: 2vw;
-  width: 40vw;
-  height: 40vh;
+.text-tecnolo{
+  width: 25vw;
+  height: auto;
+  margin: 0;
+}
+.hobbies-tec {
+  margin: 0;
+  width: 35vw;
+  height: auto;
   padding: 20px 40px;
   background-color: rgba(128, 128, 128, 0.200);
 }
-
 .pictures {
   margin-left: 1vw;
+}
+
+@media (min-width:1201px) and (max-width: 1366px) {
+  .container-tec{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 5vh;
+  }
+  .color-tec {
+    width: 30vw;
+    height: 8vh;
+    background-color: #0387fc;
+    margin-left: 5vw;
+  }
+  .title-tec {
+    color: #000;
+    width: 25vw;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .box-tec{
+    margin-top: 10vh;
+  }
+  .text-tecnolo{
+    width: 25vw;
+    height: auto;
+    margin: 0;
+  }
+  .hobbies-tec {
+    margin: 0;
+    width: 35vw;
+    height: auto;
+    padding: 20px 40px;
+    background-color: rgba(128, 128, 128, 0.200);
+  }
+}
+@media (min-width:1024px) and (max-width: 1200px) {
+  .container-tec{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 15vh;
+  }
+  .color-tec {
+    width: 35vw;
+    height: 8vh;
+    background-color: #0387fc;
+    margin-left: 2vw;
+  }
+  .title-tec {
+    color: #000;
+    width: 35vw;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .box-tec{
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin-top: 10vh;
+  }
+  .text-tecnolo{
+    width: 60vw;
+    height: auto;
+    margin: 0;
+  }
+  .hobbies-tec {
+    margin: 0;
+    width: 60vw;
+    height: auto;
+    padding: 20px 40px;
+    background-color: rgba(128, 128, 128, 0.200);
+  }
+}
+@media (min-width:769px) and (max-width: 1024px) {
+  .container-tec{
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin-top: 15vh;
+  }
+  .color-tec {
+    width: 60vw;
+    height: 8vh;
+    background-color: #0387fc;
+    margin-left: 2vw;
+  }
+    .title-tec {
+    color: #000;
+    width: 60vw;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .box-tec{
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin-top: 10vh;
+  }
+  .text-tecnolo{
+    width: 60vw;
+    margin-left: 5vw;
+  }
+  .hobbies-tec {
+    width: 70vw;
+    margin-left: 5vw;
+  }
+}
+@media (min-width:320px) and (max-width: 768px) {
+  .container-tec {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin-top: 15vh;
+  }
+  .color-tec {
+    width: 70vw;
+    height: 8vh;
+    background-color: #0387fc;
+    margin-left: 5vw;
+  }
+  .title-tec {
+    color: #000;
+    width: 70vw;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .box-tec{
+    display: block;
+    width: 100vw;
+  }
+  .text-tecnolo{
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .hobbies-tec {
+    width: 90vw;
+    margin-left: 5vw;
+  }
 }

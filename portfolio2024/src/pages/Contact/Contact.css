@@ -1,20 +1,68 @@
 .cafe-box {
   display: flex;
   width: 50vw;
+  height: auto;
   margin-top: 20vh;
 }
-
 .cafe {
   margin-top: 70px;
-  margin-left: 230px;
+  margin-left: 10vw;
 }
-
 .cafe-talk {
   font-size: 40px;
   margin-top: 70px;
   margin-left: 100px;
 }
-
 .contact-box {
   display: flex;
+}
+
+@media (min-width:1024px) and (max-width: 1200px) {
+  .cafe-box {
+    display: block;
+    margin-top: 60vh;
+  }
+  .cafe {
+    margin-top: 50px;
+    margin-left: 5vw;
+  }
+  .cafe-talk {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 5vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cafe-box {
+    display: block;
+    margin-top: 50vh;
+  }
+  .cafe {
+    margin-top: 50px;
+    margin-left: 5vw;
+  }
+  .cafe-talk {
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 5vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+.cafe-box {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin-top: 20vh;
+}
+.cafe-talk {
+  display: block;
+  margin-top: 20px;
+  margin-left: 10vw;
+}
+.contact-box {
+  display: block;
+}
 }

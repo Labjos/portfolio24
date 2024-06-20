@@ -1,13 +1,55 @@
 .main-thanks {
   width: 40vw;
-  height: 80vh;
+  height: auto;
   margin-left: 10vw;
 }
-
-.text-tec {
+.title-thanks {
   width: 40vw;
+  font-size: 30px;
+  background-color: #fff;
+  padding: 15px;
+  color: #000;
+  margin-top: 10vh;
 }
-
 .thanks {
   margin-top: 40px;
+  height: auto;
+}
+
+@media (min-width:1024px) and (max-width: 1200px) {
+  .main-thanks {
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+  }
+  .title-thanks {
+  margin-top: 20vh;
+  }
+  .thanks {
+    margin-top: 40px;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-thanks {
+    width: 100vw;
+    height: auto;
+    margin-left: 10vw;
+  }
+  .title-thanks {
+  margin-top: 20vh;
+  }
+  .thanks {
+    margin-top: 40px;
+    height: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .main-thanks {
+    width: 100vw;
+    height: auto;
+    margin-left: 10vw;
+  }
 }

@@ -1,26 +1,112 @@
 .tecno {
   width: 50vw;
-  height: 100vh;
+  height: auto;
 }
 
 .main-tec {
-  margin-left: 100px;
+  margin-left: 5vw;
   margin-top: 100px;
+  width: 80vw;
+  height: auto;
 }
 
 .others-tec {
-  margin-left: 100px;
+  width: 80vw;
+  height: auto;
+  margin-left: 5vw;
   margin-top: 100px;
 }
 
-.text-tec {
-    width: 50vw;
-    height: 6vh;
-    margin-top: 15vh;
-    margin-right: 30vh;
-    text-align: center;
+.text-tecno {
+    width: 40vw;
+    font-size: 30px;
     background-color: #fff;
+    padding: 15px;
     color: #000;
-    font-size: 24px;
-    padding: 10px;
+    margin-top: 10vh;
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .tecno {
+    width: 100vw;
+    height: auto;
+  }
+  
+  .main-tec {
+    margin-left: 5vw;
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+  }
+  
+  .others-tec {
+    width: 80vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-top: 100px;
+  }
+  .text-tecno {
+    width: 60vw;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    margin-top: 10vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tecno {
+    width: 100vw;
+    height: auto;
+  }
+  
+  .main-tec {
+    margin-left: 5vw;
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+  }
+  
+  .others-tec {
+    width: 80vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-top: 100px;
+  }
+  .text-tecno {
+    width: 60vw;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    margin-top: 10vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .tecno {
+    width: 100vw;
+    height: auto;
+  }
+  
+  .main-tec {
+    margin-left: 5vw;
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+  }
+  
+  .others-tec {
+    width: 80vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-top: 100px;
+  }
+  
+  .text-tecno {
+    width: 70vw;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    margin-top: 10vh;
+  }
 }

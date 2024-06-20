@@ -21,3 +21,56 @@
   font-size: 30px;
   padding: 15px;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .title-page {
+    display: block;
+  }
+  
+  .title-text {
+    width: 70vw;
+    height: 30vh;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 10vw;
+    font-size: 22px;
+  }
+  
+  .color-it {
+    width: 70vw;
+    height: 10vh;
+    margin-top: 5vh;
+    margin-right: 10vh;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .title-page {
+    display: block;
+  }
+  
+  .title-text {
+    width: 90vw;
+    height: 30vh;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 10vw;
+    font-size: 24px;
+  }
+  
+  .color-it {
+    width: 70vw;
+    height: 8vh;
+    margin-top: 15vh;
+    margin-right: 30vh;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 15px;
+  }
+  
+}radialGradient

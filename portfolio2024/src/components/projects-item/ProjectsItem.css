@@ -55,14 +55,11 @@
   z-index: 1;
   padding: 5px;
 }
-
-
 .overlay i{
   color: #fff;
   z-index: 1;
   gap: 10px;
 }
-
 .marc{
   display: flex;
   justify-content: center;

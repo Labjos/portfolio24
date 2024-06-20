@@ -5,6 +5,10 @@
   margin-top: 15vh;
   margin-left: 7vw;
 }
+.down {
+  width: 100vw;
+  height: auto;
+}
 
 .down li a i{
   list-style-type: none;
@@ -24,9 +28,50 @@
   list-style-type: none;
   text-decoration: none;
 }
-
+.title-down {
+  width: 40vw;
+  font-size: 30px;
+  background-color: #fff;
+  padding: 15px;
+  color: #000;
+  margin-top: 10vh;
+}
 .text-down{
   width: 40vw;
   height: 10vh;
   padding: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .title-down {
+    width: 70vw;
+  }
+  .down li a {
+   font-size: 15px;
+   height: auto;
+  }
+  
+  .text-down{
+    width: 70vw;
+    height: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .title-down {
+    width: 90vw;
+  }
+  
+  .text-down{
+    width: 90vw;
+    height: auto;
+  }
+  .down li a {
+    font-size: 12px;
+    height: auto;
+  }
+  .down li a i{
+    height: auto;
+  }
+  
 }

@@ -259,3 +259,104 @@
   border: #fff 1px solid;
 }
 
+@media (min-width: 1201px) and (max-width: 1366px) {
+	.box-one {
+		height: 7vh;
+		}
+	.box-two {
+		height: 12vh;
+		}
+	.box-three {
+		height: 18vh;
+	}
+	.box-four {
+		height: 15vh;
+	}
+	.box-five {
+		height: 22vh;
+	}
+	.box-six {
+		height: 8vh;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1201px) {
+	.box-one {
+		height: 6vh;
+		}
+	.box-five {
+		height: 24vh;
+	}
+	.box-six {
+		height: 8vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.box-one {
+		height: 7vh;
+		}
+	.box-two {
+		height: 12vh;
+		}
+	.box-three {
+		height: 18vh;
+	}
+	.box-four {
+		height: 15vh;
+	}
+	.box-five {
+		height: 22vh;
+	}
+	.box-six {
+		height: 8vh;
+	}
+}
+
+		@media (min-width:320px) and (max-width: 768px) {
+	.home {
+		display: block;
+	}
+	.box-one {
+		width: 20vw;
+  	height: 10vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		}
+	.box-two {
+		width: 30vw;
+		height: 15vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		}
+	.box-three {
+		width: 25vw;
+		height: 18vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	.box-four {
+		width: 40vw;
+		height: 15vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	.box-five {
+		width: 50vw;
+		height: 22vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	.box-six {
+		width: 30vw;
+		height: 10vh;
+		margin-left: 20vw;
+		margin-top: 10px;
+	}
+}
+
