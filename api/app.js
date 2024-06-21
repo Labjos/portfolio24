@@ -4,7 +4,10 @@ const logger = require("morgan");
 
 require("./configs/db.confing");
 const router = require("./configs//routes.config");
+
+
 const cors = require("./middlewares/cors.middlewares");
+
 
 const app = express();
 
@@ -17,14 +20,8 @@ app.use(cors)
 app.use("/api/v1", router);
 
 //Errors
-app.use((req, res, next) => {
-    res.status(404).json({ message: 'Ruta no encontrada'});
-});
-app.use((err, req, res, next) => {
-    console.error(err);
+app.use("/", require('./web'))
 
-    res.status(500).json({ message: 'Error interno del servidor'});
-});
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.info(`Running on port ${port}`));
+app.listen(port, () => console.info(`Running on port!!!`));
